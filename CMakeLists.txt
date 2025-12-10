@@ -8,18 +8,15 @@ include_directories(Basic)
 
 # Main executable matching project name
 add_executable(I_Love_Cpp
-        Basic/Enums.cpp
-        Basic/Enums.h
+        Basic/Template.cpp
+        Basic/Template.h
 )
-
-# First executable for const_vs_static
+# the whole executable files
 add_executable(const_vs_static_demo
         Basic/const_vs_static.cpp
         Basic/const_vs_static.h
-)
-
-# Second executable for ptr_vs_ref
-add_executable(ptr_vs_ref_demo
+        Basic/Template.cpp
+        Basic/Template.
         Basic/ptr_vs_ref.cpp
         Basic/ptr_vs_ref.h
 )
