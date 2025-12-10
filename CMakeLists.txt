@@ -8,8 +8,8 @@ include_directories(Basic)
 
 # Main executable matching project name
 add_executable(I_Love_Cpp
-        Basic/ptr_vs_ref.cpp
-        Basic/ptr_vs_ref.h
+        Basic/Enums.cpp
+        Basic/Enums.h
 )
 
 # First executable for const_vs_static
